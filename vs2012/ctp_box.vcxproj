@@ -82,6 +82,10 @@
     <ClCompile Include="..\src\ctp_box\mymdspi.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\3rdparty\ctpapi\include\ThostFtdcMdApi.h" />
+    <ClInclude Include="..\3rdparty\ctpapi\include\ThostFtdcTraderApi.h" />
+    <ClInclude Include="..\3rdparty\ctpapi\include\ThostFtdcUserApiDataType.h" />
+    <ClInclude Include="..\3rdparty\ctpapi\include\ThostFtdcUserApiStruct.h" />
     <ClInclude Include="..\src\ctp_box\mymdspi.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

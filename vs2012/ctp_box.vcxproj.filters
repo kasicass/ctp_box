@@ -6,5 +6,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\ctp_box\mymdspi.h" />
+    <ClInclude Include="..\3rdparty\ctpapi\include\ThostFtdcMdApi.h">
+      <Filter>ctp_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\ctpapi\include\ThostFtdcTraderApi.h">
+      <Filter>ctp_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\ctpapi\include\ThostFtdcUserApiDataType.h">
+      <Filter>ctp_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\ctpapi\include\ThostFtdcUserApiStruct.h">
+      <Filter>ctp_api</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ctp_api">
+      <UniqueIdentifier>{eef18171-a525-4c66-8f53-060400e765fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
