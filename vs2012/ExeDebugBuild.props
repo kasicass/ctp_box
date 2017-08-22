@@ -10,7 +10,7 @@
     <ClCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)..\3rdparty\ctpapi\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <PreprocessorDefinitions>ISLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ISLIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)..\3rdparty\ctpapi\lib_$(PlatformShortName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
